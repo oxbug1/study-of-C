@@ -2,8 +2,13 @@
 
 int main() {
     int i = 1;
-    float f = 2.0;
+    while (i <= 128) {
+        printf("%d ", i);
+        i *= 2;
+    }
 
-    (i > 2) ? printf("INT %d\nFLOAT %f\n", i, i) : printf("INT %d\nFLOAT %f\n", f, f);
+    for (int n = 1; n <= 128; n *= 2) {
+        printf("%d ", n);
+    }
 }
 
